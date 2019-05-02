@@ -7,5 +7,5 @@
 ## Balanced Search Trees
 
 1. <a href="bst_overview.html">Overview of Balance and Efficiency</a>  
-2. <a href="searching.html">Overview of Searching</a>
+2. <a href="searching.html">Searching Search Trees</a>
 

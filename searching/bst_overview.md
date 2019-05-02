@@ -1,10 +1,11 @@
 <a href="home.html">Main Page</a>  
+Previous: <a href="indexed_sequential.html">Indexed Sequential Search</a>  
 # Balancing Search Trees
 ## Balance and Efficiency
 
 A search tree is a lot like an extension of Indexed Sequential Search except that instead of using a few nested index tables to break up a larger array, there is an index table for each pair of records.
 
-Recall the depiction of ISAM:  
+Recall the depiction of ISAM (Indexed Sequential Access Method):  
 
 ![Indexed Sequential Search](media/ind1.png# md)
 
@@ -41,7 +42,7 @@ Searches range from O(log n) to O(n) depending on how well a tree is balanced.
 
 
 
-Next: <a href="searching.html">Overview of Searching</a>  
+Next: <a href="searching.html">Searching Search Trees</a>  
 <a href="home.html">Main Page</a>  
 
 

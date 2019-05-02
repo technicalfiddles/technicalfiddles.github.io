@@ -1,6 +1,6 @@
 <a href="home.html">Main Page</a>  
 <a href="sequential.html">Sequential Search</a>  
-Back: <a href="binary_search.html">Binary Search</a>
+Previous: <a href="binary_search.html">Binary Search</a>
 
 # Indexed Sequential Search
 
@@ -25,6 +25,7 @@ Back: <a href="binary_search.html">Binary Search</a>
 Time complexity is reduced compared to sequential search but not as efficient as binary search.  
 The complexity is wholly dependent on the design of the index table. Efficiency is somewhere between O(log n) and O(n), however in order to approach an efficiency of O(log n), the data will start to approach the form of a balanced binary search tree.
 
+Next: <a href="bst_overview.html">Overview of Balance and Efficiency</a>  
 <a href="home.html">Main Page</a>
 
 

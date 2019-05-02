@@ -1,5 +1,5 @@
 <a href="home.html">Main Page</a>  
-<a href="sequential.html">Sequential Search</a>
+Previous: <a href="sequential.html">Sequential Search</a>
 
 # Binary Search
 
@@ -19,6 +19,6 @@
 
 Due to the searchable space being halved after each comparison, this is a log(n) operation. Thus the efficiency on average is O(log n).
 
-<a href="indexed_sequential.html">Indexed Sequential Search</a>  
+Next: <a href="indexed_sequential.html">Indexed Sequential Search</a>  
 <a href="home.html">Main Page</a>
 

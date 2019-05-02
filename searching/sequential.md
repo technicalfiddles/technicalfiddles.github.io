@@ -27,7 +27,7 @@ On average, sequential sort will be O(n).
 For more details, review your Homework 9, Question 1: <a href="sequential_efficiency.html">Sequential Sort Efficiency</a>
 
 
-<a href="binary_search.html">Binary Search</a>  
+Next: <a href="binary_search.html">Binary Search</a>  
 <a href="home.html">Main Page</a>
 
 

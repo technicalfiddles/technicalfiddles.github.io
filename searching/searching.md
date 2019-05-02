@@ -1,7 +1,7 @@
 <a href="home.html">Main Page</a>  
-Back: <a href="bst_overview.html">Overview of Balance and Efficiency</a>
+Previous: <a href="bst_overview.html">Overview of Balance and Efficiency</a>
 
-## Searching
+## Searching Search Trees
 
 Given any search tree, the algorithm to find and access an element is essentially the same.  
 
@@ -39,7 +39,7 @@ This algorithm is a combination of:
 -sequential search (searching through data itmes for each node)  
 -binary search (searching smaller or larger subarray based on root value)  
 
-<a href="home.html">Main Page</a>  
+Back to <a href="home.html">Main Page</a>  
 
 
 
