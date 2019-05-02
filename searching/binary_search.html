@@ -1,0 +1,18 @@
+<p><a href="home.html">Main Page</a><br />
+<a href="sequential.html">Sequential Search</a></p>
+<h1>Binary Search</h1>
+<h3>Background</h3>
+<ul>
+<li>requires sorted data</li>
+<li>most efficient method that doesn't store auxiliary indices (the ways trees do)</li>
+</ul>
+<h3>Algorithm</h3>
+<pre><code>Compare middle element of table with given key. 
+If equal, return element.
+If middle element less than key, search first half of table
+Else search second half of table
+</code></pre>
+<h3>Efficiency</h3>
+<p>Due to the searchable space being halved after each comparison, this is a log(n) operation. Thus the efficiency on average is O(log n).</p>
+<p><a href="indexed_sequential.html">Indexed Sequential Search</a><br />
+<a href="home.html">Main Page</a></p>

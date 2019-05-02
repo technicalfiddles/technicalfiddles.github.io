@@ -1,0 +1,34 @@
+<p>Sequential (or linear) search, compares each values of the data set to the target value, until the target value is found or the end of the list is achieved. On average, time complexity is O(n)</p>
+<p>a) If no record with the key key is present</p>
+<pre><code>Ordered table and unordered table will result in the same efficiency.  
+Sequential search needs to search the entire table either way.   
+If the key value does not exist, time complexity will be O(n).
+</code></pre>
+<p>b) If one record with the key key is present and only one is sought.</p>
+<pre><code>Sequential search efficiency does not change between sorted and unsorted data when only one key is present and sought.  
+Every value must be compared until the record with the key is found. On average, time complexity will be O(n/2)
+</code></pre>
+<p>c) If more than one record with the key key is present and it is desired to find only the first</p>
+<pre><code>In this case, there is a slight change in efficiency between sorted and unsorted data.
+
+For sorted data, the target records will all appear next to each other and will not be scattered throughout the data.  
+In essence, these records can be treated as a single record, in which case the average complexity is O(n/2) -   
+e.g. on average, the target value may show up in the middle of the data set.
+
+For unsorted data, the probability that the records are scattered throughout the data increases.  
+This means that there will be a higher likelihood of encountering the target value earlier in the data set.  
+In this case, for *k* records with the desired key in a data set of *n* records,   
+the time complexity will be O(n / (k+1)).
+</code></pre>
+<p>d) If more than one record with the key key is present and it is desired to find them all.
+Efficiency changes between sorted and unsorted data in this case as well.</p>
+<pre><code>For sorted data, the target values will be grouped.   
+Efficiency will be much as for part c).  
+On average, half of the data will need to be searched, plus the number of records with the target key.  
+Thus, for *k* records with the desired key in a data set of *n* records,  
+the time complexity is O(n/2 + k) which approximates to O(n/2)
+
+For unsorted data, the target values will be scattered.  
+There will be no guarantee that all target values have been obtained unless the entire data set is searched.  
+Thus, time complexity will be O(n).
+</code></pre>

@@ -1,0 +1,47 @@
+<p><a href="home.html">Main Page</a></p>
+<h1>Sequential Search</h1>
+<h3>Background</h3>
+<ul>
+<li>does not require sorted data</li>
+<li>used with array, linked list such as:</li>
+</ul>
+<p><img alt="Sequential Search Table" src="media/seq1.png# md" /></p>
+<ul>
+<li>cannot leave holes in array<ul>
+<li>deletion requires shifting records</li>
+</ul>
+</li>
+</ul>
+<h3>Algorithm</h3>
+<p>Sequentially search a table for a given key:</p>
+<pre><code>For each record, compare if it is the given key.
+If not, keep looking,
+If it is, return the key.
+</code></pre>
+<h3>Efficiency</h3>
+<p>On average, sequential search will take (n+1)/2 comparisons. There are some subtleties, depending on whether the key sought is unique or may be duplicated, as well as between sorted and unsorted data.<br />
+On average, sequential sort will be O(n).</p>
+<p>For more details, review your Homework 9, Question 1: <a href="sequential_efficiency.html">Sequential Sort Efficiency</a></p>
+<p><a href="binary_search.html">Binary Search</a><br />
+<a href="home.html">Main Page</a></p>
+<style type="text/css" rel="stylesheet">
+
+img[src~="th"] {
+   width:150px;
+}
+img[src~="thl"] {
+    width:225px;
+}
+img[src~="bordered"] {
+   border: 1px solid black;
+}
+img[src~="md"] {
+   width:350px;
+}
+img[src~="mdl"] {
+    width:500px;
+}
+img[src~="large"] {
+   width:700px;
+}
+</style>
