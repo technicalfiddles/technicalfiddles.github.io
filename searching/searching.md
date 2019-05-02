@@ -14,7 +14,7 @@ Given a search key, starting with the root:
 		Elseif search key == root value  
 			return root
 
-Some trees have more than one value in each node. B-Trees can contain multiple data items in a node and can also link to four children.  
+Some trees have more than one value in each node. B-Trees can contain multiple data items in a node and can link to multiple children.  
 
 Searching these trees is still quite easy.
 
