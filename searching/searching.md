@@ -36,6 +36,7 @@ Searching these trees is still quite easy.
 
 
 This algorithm is a combination of:  
+
 -sequential search (searching through data itmes for each node)  
 -binary search (searching smaller or larger subarray based on root value)  
 
