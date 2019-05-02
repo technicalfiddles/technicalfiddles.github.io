@@ -37,8 +37,8 @@ Searching these trees is still quite easy.
 
 This algorithm is a combination of:  
 
--sequential search (searching through data itmes for each node)  
--binary search (searching smaller or larger subarray based on root value)  
+- sequential search (searching through data itmes for each node)  
+- binary search (searching smaller or larger subarray based on root value)  
 
 Back to <a href="home.html">Main Page</a>  
 
